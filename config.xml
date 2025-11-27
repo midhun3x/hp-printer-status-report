@@ -1,0 +1,30 @@
+<config>
+    <printers>
+        <printer>
+            <ip>192.168.1.247</ip>
+            <community>public</community>
+            <port>161</port>
+            <version>2</version>
+        </printer>
+        <printer>
+            <ip>192.168.1.248</ip>
+            <community>public</community>
+            <port>161</port>
+            <version>2</version>
+        </printer>
+    </printers>
+
+    <email>
+        <smtp>
+            <server>mail.server.com</server>
+            <port>587</port>
+            <username>sender@email.com</username>
+            <password>password</password>
+        </smtp>
+        <from>sender@email.com</from>
+		<to>receiver@email.com</to>
+		<cc>receiver2@email.com, receiver3@email.com</cc>
+
+        <subject>HP Printer Counter - Company Name, Location</subject>
+    </email>
+</config>
